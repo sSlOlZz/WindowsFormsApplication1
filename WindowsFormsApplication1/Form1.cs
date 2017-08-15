@@ -45,6 +45,11 @@ namespace WindowsFormsApplication1
         {
             
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += 7.ToString();
+        }
     }
 
 }
